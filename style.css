@@ -1,0 +1,976 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    bckground-color0: aqua;
+    
+   
+    
+}
+
+.theHeader{
+    z-index: 1000;
+   
+}
+
+.naBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;   
+}
+
+.allSections{
+    padding: 60px 20px;
+    mrgin-top: 50px;
+    height: 100vh;
+    
+    
+}
+
+#home {
+    background-image: linear-gradient(-45deg,#001773,#1bcedf);
+}
+
+#about {
+    bckground-color: #e2e2e2;
+    background-image: linear-gradient(-45deg,#1bcedf,#1bcedf);
+   
+}
+
+#projects {
+    background-color: #d1d1d1;
+    background-image: linear-gradient(-45deg,#1bcedf,#1bcedf);
+    height: auto;
+}
+
+#skills{
+    background-image: linear-gradient(-45deg,#1bcedf,#1bcedf);
+}
+
+#contact{
+    background-image: linear-gradient(-45deg,#1bcedf,#1bcedf);
+}
+
+.mainHomeDiv{
+    margin-top: 25px;
+    brder: 1px solid rgb(47, 255, 0);
+    height: 90vh;
+    width: 200vb;
+    display: flex;
+}
+
+.introDiv{
+    brder: 1px solid pink;
+    width: 100vb;
+    margin-top: 45px;
+    margin-left: 5px;
+    height:85vh;   
+}
+
+.myPicDiv{
+    brder: 1px solid pink;
+    width: 100vb;
+    margin-top: 45px;
+    margin-left: 3px;
+    margin-right: 5px;
+    height: 85vh;
+
+}
+
+.myNameDiv{
+    brder: 1px solid ;
+    margin-top: 20px;
+    margin-left: 70px;
+    height: 90px;
+}
+
+.hi-Heading1{
+  
+    font-size: 3vw;
+    color: white;
+    font-family: 'Georgia', serif;
+    
+}
+
+@media screen and (min-width: 480px) {
+    .frontendDeveloperMOBILEDiv{
+        display: none;}
+
+    .myPicMobileDiv{
+        display: none;}
+
+    .descriptionMOBILEDiv{
+        display: none;}
+
+    .myButtonsDiv{
+        brder: 1px solid;
+        margin-left: 70px;
+        height: 35px;
+        margin-top: 85px;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    
+    }
+
+    .myButtonsMOBILEDiv{
+        display: none; }
+
+        .navbarMobile{
+            display: none;
+        }
+
+        .navBar{
+            color: white;
+            background: rgba(255, 255, 255, 0.2); 
+            border-radius: 30px;
+            backdrop-filter: blur(10px); 
+            -webkit-backdrop-filter: blur(10px); 
+            border: 1px solid rgba(255, 255, 255, 0.3); 
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+            padding: 20px; 
+        
+        }
+
+        .div1{
+            brder: 1px solid red;
+            display: flex;
+            height: 70px;
+            width: 100%;
+            position: fixed;
+            top: 10px;
+            
+           
+        }
+
+        .navDiv{
+            brder: 1px solid rgb(255, 0, 247);
+            width: 100vb;
+        }
+
+        .logoDiv{
+            brder: 1px solid rgb(242, 255, 0);
+            width: 30%;
+        }
+        
+        .myLogo{
+            
+            width: 25vw;
+            height:px;
+        }
+
+
+        .aboutDiv{
+            brder: 1px solid red;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            hight: 100vh;
+        
+        }
+
+        .meDiv{
+            brder: 1px solid yellow;
+        }
+
+        .aboutPicDiv{
+            brder: 1px solid pink;
+        }
+
+        .aboutParaDiv{
+            brder: 1px solid black;
+            text-align: center;
+        }
+
+        .aboutPara{
+            color: navy;
+            font-size: 1.5vw;
+        }
+        .aboutPic{
+            border-radius: 50%;
+            height: 20vw;
+        }
+
+        .projectsDiv{
+            brder: 1px solid red;
+            text-align: center;
+        }
+
+        .myProjectsHeading{
+            brder: 1px solid yellow;
+            margin: 2px;
+        }
+
+        .all4ProjectsDiv{
+            brder: 1px solid orange;
+            margin: 2px;
+            color: navy;
+            
+        }
+        .top2Projects{
+            brder: 1px solid black;
+            margin: 2px;
+            margin-bottom: 50px;
+            width: 95vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            column-gap: 65px;
+            
+
+        }
+        .topleftProject{
+            brder: 1px solid red;
+            margin: 2px;
+            width: 35vw;
+            
+        }
+        .tileImage1{
+            brder: 1px solid yellow;
+            margin: 2px;
+            height: 35vh;
+            width: 25vw;
+            margin-left: 5vw;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .tileImage1:hover{
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgb(14, 4, 107);
+        }
+
+
+        .tileImage1 .hitProject{
+            width: 100%;
+            height: 100%;
+            object-fit: cover
+        }
+       
+        .descriptionPara1{
+            brder: 1px solid green;
+            margin: 2px;
+            
+
+        }
+        .toprightProject{
+            brder: 1px solid red;
+            margin: 2px;
+            width: 34vw;
+        }
+        .tileImage2{
+            brder: 1px solid yellow;
+            margin: 2px;
+            height: 35vh;
+            width: 33.8vw;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .tileImage2:hover{
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgb(14, 4, 107);
+        }
+        .tileImage2 .mutareLandingpageProject{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .descriptionPara2{
+            brder: 1px solid green;
+            margin: 2px;
+
+        }
+
+        .bottom2Projects{
+            brder: 1px solid black;
+            margin: 2px;
+            width: 95vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            column-gap: 55px;
+
+
+        }
+        .bottomleftProject{
+            brder: 1px solid red;
+            margin: 2px;
+            width: 35vw;
+        }
+        .tileImage3 .productsProject{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .tileImage3{
+            brder: 1px solid yellow;
+            margin: 2px;
+            width: 34vw;
+            height: 54vh;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .tileImage3:hover{
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgb(14, 4, 107);
+        }
+        .descriptionPara3{
+            brder: 1px solid green;
+            margin: 2px;
+
+        }
+        .bottomrightProject{
+            brder: 1px solid red;
+            margin: 2px;
+            width: 35vw;
+        }
+        .tileImage4{
+            brder: 1px solid yellow;
+            margin: 2px;
+            height: 54h;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .tileImage4:hover{
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgb(14, 4, 107);
+        }
+
+        .tileImage4 .hitProject{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .descriptionPara4{
+            brder: 1px solid green;
+            margin: 2px;
+
+        }
+
+        .skillsSection{
+            brder: 1px solid black;
+            height: 90vh;
+            
+        }
+
+        .mySkillDiv{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+        }
+
+        .bothSkillsDiv{
+            brder: 1px solid yellow;
+            height: 70vh;
+            margin: 2px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            column-gap: 55px;
+            color: navy;
+            font-weight: bold;
+            
+           
+           
+        }
+        .leftSkillsDiv{
+            border: 2px solid navy;
+            margin: 2px;
+            height: 50vh;
+            width: 40vw;
+            padding: 1vw;
+            border-radius: 1vw;
+        }
+        .rightSkillsDiv{
+            border: 2px solid navy ;
+            margin: 2px;
+            height: 50vh;
+            width: 40vw;
+            padding: 1vw;
+            border-radius: 1vw;
+        }
+        .htmlSkillDiv{
+            brder: 1px solid red;
+            margin: 4px;
+            height: 10vh;
+           
+        }
+        .htmlAndPercentage{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between; 
+            brder: 1px solid yellow;
+            font-size: 1.9vh;
+            padding: 0;
+            
+        }
+        .percentageDiv{
+            border: 2px solid navy;
+            height: 3vh;
+            border-radius: 5px;
+        }
+        .percentageBar{
+            border: 1px solid #001773;
+            margin: 3px;
+            height: 2vh;
+            background-color: navy;
+            border-radius: 2.5px;
+        }
+        #HTMLskill{
+            margin-bottom: 8vh;
+        }
+        #HTMLpercentageBarID{
+            width: 36vw;
+        }
+        #CSSskill{
+            margin-bottom: 8vh;
+        }
+        #CSSpercentageBarID{
+            width: 32vw;
+        }
+        #JavaScriptpercentageBarID{
+            width: 34.8vw;
+        }
+        #FigmapercentageBarID{
+            width: 29vw;
+        }
+        #PythonpercentageBarID{
+            width: 32.5vw;
+        }
+        #CsharppercentageBarID{
+            width: 28vw;
+        }
+        #FigmaDiv{
+            margin-bottom: 8vh;
+        }
+        #PythonDiv{
+            margin-bottom: 8vh;
+        }
+
+        .top2Textboxes{
+        
+            brder: 1px solid red;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1.5vh;
+            
+
+
+
+        }
+        .bottom2Textboxes{
+            brder: 1px solid red;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 3.5vh;
+            
+
+        }
+
+        .nameTag{
+            margin-right: 1vw;
+            background-color: transparent;
+            border: 3px solid navy;
+            width: 23vw;
+            height: 5vh;
+            border-radius: 0.7vh;
+
+        }
+        .emailTag{
+            margin-right: 1vw;
+            background-color: transparent;
+            border: 3px solid navy;
+            width: 23vw;
+            height: 5vh;
+            border-radius: 0.9vh;
+
+        }
+        .phoneTag{
+            margin-right: 1vw;
+            background-color: transparent;
+            border: 3px solid navy;
+            width: 23vw;
+            height: 5vh;
+            border-radius: 0.9vh;
+
+        }
+        .emailSubjectTag{
+            margin-right: 1vw;
+            background-color: transparent;
+            border: 3px solid navy;
+            width: 23vw;
+            height: 5vh;
+            border-radius: 0.9vh;
+
+        }
+        .yourMessageDiv{
+            brder: 1px solid red;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1vw;
+        }
+        .yourMessageTag{
+            margin-right: 1vw;
+            background-color: transparent;
+            border: 3px solid navy;
+            width: 47.5vw;
+            height: 30vh;
+            border-radius: 0.9vh;
+        }
+        input::placeholder {
+            color: #eae4e4;
+            font-size: 2vh;
+            font-weight: bold;
+         } 
+         textarea::placeholder {
+            color: #eae4e4;
+            font-size: 2.5vh;
+            
+         } 
+
+         
+         .submitButton{
+            border: 0;
+            background-color: navy;
+            box-shadow: #4c6466 5px 5px 8px;
+            text-transform: uppercase;
+            color: #03dff3;
+            transition: all .5s ease;
+            width: 110px;
+            border-radius: 5px;
+            font-size: 15px;
+            font-weight: bold;
+            height: 4.5vh;
+         }
+         .contactmeSubmission{
+            display: flex;
+            justify-content: center;
+         }
+
+         .thefooter{
+            height: 10vh;
+            bckground-color: navy;
+            display: flex;
+            justify-content: center;
+         }
+         footer{
+            background-color: #001773;
+         }
+         .footerDiv{
+            background-color: #001773;
+         }
+        
+       
+        
+
+    
+}
+
+@media screen and (max-width: 360px){
+
+    .div1{
+        brder: 1px solid red;
+        display: flex;
+        height: 70px;
+        width: 100%;
+        position: fixed;
+        top: 10px;
+        gap: 100px;
+              
+    }
+
+    .myLogo{
+    
+        width: 45vw;
+        
+    }
+
+    .nvDiv{
+        brder: 1px solid rgb(255, 0, 247);
+        width: 100vb;
+    }
+
+    .logoDiv{
+        brder: 1px solid rgb(242, 255, 0);
+        width: 45%;
+    }
+    
+   
+
+    .navDiv{
+        brder: 1px solid rgb(255, 0, 247);
+        width: 25vw;
+    }
+
+    .navBar{
+        color: white;
+        background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+        border-radius: 5px; /* Rounded corners */
+        backdrop-filter: blur(10px); /* Blur effect */
+        -webkit-backdrop-filter: blur(10px); /* For Safari support */
+        border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        padding: 0px; /* Padding inside the section */
+        margin-left: 0px;
+    
+    }
+
+
+    .mainHomeDiv{
+        margin-top: 25px;
+        brder: 1px solid rgb(47, 255, 0);
+        height: 90vh;
+        width: 94vw;
+        display: flex;
+    }
+
+    .myPicDiv{
+       display: none;
+    }
+
+
+    .navbarLaptop{
+        display: none;
+    }
+
+    .hi-Heading1{
+        /*font-size: 40px;*/
+        font-size: 7.5vw;
+        font-size: 3.9vh;
+        color: rgb(255, 255, 255);
+        font-family: 'Georgia', serif; 
+        
+    }
+  
+    .myNameDiv{
+        brder: 1px solid black;
+        margin-top: 0px;
+        margin-left: 0px;
+        height: 60px;
+        width: auto;
+    }
+
+    .picandDescriptionMOBILE{
+        mrgin-top: 10px;
+        height: 160px;
+        width: auto;
+        brder: 1px solid yellow;
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .descriptionMOBILEDiv{
+        margin-top: 2px;
+        margin-left: 8px;
+        height: auto;
+        width: 85vw;
+        margin-top: 2px;
+        color: #F0F0F0;
+        font-weight: bolder;
+        text-align: center;
+        border: 1px solid rgba(0, 0, 0, 0.227);
+        border-radius: 10px;
+        box-shadow: 30px 30px 50px hsl(227, 75%, 31%);
+        
+        
+    }
+
+
+    .myPicMobileDiv{
+        boder: 1px solid cyan;
+        display: block; 
+        width: 45vw;  
+        height: 22vh;
+        border-radius: 40px;
+
+    }
+
+    .myPicMOBILE{
+        height: 22vh;
+        width: 45vw;
+        border-radius: 20px;
+
+    }
+
+    .descriptionDiv{
+        display: none;}
+
+    .introDiv{
+        brder: 1px solid pink;
+        width: 90vw;
+        margin-top: 0;
+        margin-left: 5px;
+        height:85vh;   
+    }
+
+    .frontendDeveloperDiv{
+        display: none;}
+
+    .frontendDeveloperMOBILEDiv{
+       
+        width: 140px;
+        brder: 1px solid rgb(255, 0, 0);
+        margin-left: 5px;
+        height: 13vh;
+        margin-top: 45px;
+        text-align: center;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(45deg,aqua,#001773,#001773,red,rgb(51, 0, 255),rgba(76, 0, 255, 0.471),rgb(0, 225, 255),cyan,rgb(255, 0, 0),rgb(0, 140, 255),cyan,skyblue);
+        background-size: 400% 400%; 
+        animation: animate 5s ease infinite; 
+        font-weight: bold;
+    }
+
+    .frontendHeading{
+        font-size: 7.5vw;
+        font-size: 4vh;
+        mrgin-right: 7px;
+        font-weight: bold;
+    }
+
+    .myButtonsDiv{
+        display: none;
+    }
+
+    .myButtons{
+        dsplay: none;
+    }
+
+    .myButtonsMOBILEDiv{
+        
+        brder: 1px solid;
+        mrgin-left: 70px;
+        height: 35px;
+        margin-top: 18px;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+                
+            .hmburger {
+                display: none;
+            }
+            .menu {
+                display: flex;
+                flex-direction: row;
+                width: 50px;
+            }
+            .menu a {
+                display: block;
+            }
+
+
+            
+            .navbarMobile {
+            bckground-color: #333;
+            overflow: hidden;
+            position: relative;
+            }
+
+           
+            #menu-toggle {
+            display: none;
+            }
+
+            
+            .hamburger {
+            display: block;
+            cursor: pointer;
+            font-size: 30px;
+            color: white;
+            padding: 1px 16px;
+            margin-left: 0%;
+
+            }
+
+            
+            .menu {
+            display: none;
+            flex-direction: column;
+            bckground-color: #333;
+            }
+
+            
+            #menu-toggle:checked + .hamburger + .menu {
+            display: flex;
+            }
+
+           
+            .menu a {
+            color: white;
+            padding: 14px 1px;
+            text-decoration: none;
+            text-align: center;
+            }
+
+           
+            .menu a:hover {
+            background-color: #ddd;
+            color: black;
+            }
+
+
+            .aboutDiv{
+                brder: 1px solid red;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                hight: 100vh;
+            
+            }
+
+            .meDiv{
+                brder: 1px solid yellow;
+            }
+    
+            .aboutPicDiv{
+                brder: 1px solid pink;
+            }
+    
+            .aboutParaDiv{
+                brder: 1px solid black;
+                text-align: center;
+            }
+    
+            .aboutPara{
+                color: navy;
+                font-size: 5vw;
+            }
+            .aboutPic{
+                border-radius: 50%;
+                height: 40vw;
+            }
+
+
+}
+
+.nameLabel{
+    color: navy;
+
+}
+
+
+.frontendDeveloperDiv{
+    brder: 1px solid rgb(255, 0, 0);
+    margin-left: 70px;
+    height: 5vh;
+    margin-top: 35px;
+    font-size: 2vw;
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(45deg,aqua,#001773,#001773,red,rgb(51, 0, 255),rgba(76, 0, 255, 0.471),rgb(0, 225, 255),cyan,rgb(255, 0, 0),rgb(0, 140, 255),cyan,skyblue);
+    background-size: 400% 400%; 
+    animation: animate 5s ease infinite; 
+    font-weight: bold;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.descriptionDiv{
+    brder: 1px solid;
+    margin-left: 70px;
+    height: 105px;
+    margin-top: 5px;
+    color: navy;
+    font-weight: bolder;
+    font-size: 1vw;
+    border: 1px solid rgba(0, 0, 0, 0.227);
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px hsl(227, 75%, 31%);
+    text-align: center;
+    padding-top: 1px;
+    
+}
+
+.myuttonsDiv{
+    border: 1px solid;
+    margin-left: 70px;
+    height: 35px;
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.myButtons{
+    border: 0;
+    background-color: #1bcedf;
+    box-shadow: #001773 5px 5px 8px;
+    text-transform: uppercase;
+    color: #001773;
+    transition: all .5s ease;
+    width: 110px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.resumeLink .myButtons{
+    border: 0;
+    background-color: #1bcedf;
+    box-shadow: #001773 5px 5px 8px;
+    text-transform: uppercase;
+    color: #001773;
+    transition: all .5s ease;
+    width: 110px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 4.8vh;
+}
+
+.myButtons:hover{
+    background-color: #001773;
+    box-shadow: #1bcedf 0px 7px 29px 0px;
+    color: #1bcedf;
+    
+}
+
+.myic{
+    height: 500px;
+    width: auto;
+    filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+}
+
+.myPic:hover{
+    
+    filter: drop-shadow(1px 1px 20px hsl(243, 96%, 20%));
+}
+
+
+
+.myPicMobileDiv{
+    
+}
